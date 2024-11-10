@@ -1,14 +1,14 @@
 body {
 	background: black;
-	font-family: "New Amsterdam", sans-serif;
 }
 
 * {
+	border: 1px dashed red;
 	min-height: 10px;
 }
 
 .postcard {
-	background: white;
+	background-color: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -27,7 +27,6 @@ body {
 .postcard-header h1 {
 	width: 100%;
 	margin: 0;
-	padding: 10px;
 }
 
 .postcard-body {
@@ -53,7 +52,6 @@ input {
 }
 
 button {
-	background-color: rgb(143, 152, 143);
+	background-color: rgb(206, 205, 203);
 	padding: 5px 10px;
-	border: none;
 }
